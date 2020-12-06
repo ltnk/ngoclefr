@@ -1,0 +1,130 @@
+<section class="all-ngoc-homepage">
+  <ngoc-header></ngoc-header>
+
+  <div class="ngoc-homepage" id="projects">
+    <!-- SIMON WEBSITE -->
+    <div class="project-simon">
+      <h2>Site internet responsive "Simon Vaissiere" - Angular 8</h2>
+
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div>
+          <img
+            (click)="goToSimonWebsite()"
+            class="img-slides"
+            src="../../assets/simon/{{ slidesSimon[slideIndexSimon].img }}"
+            style="width: 70%;"
+          />
+          <div class="text">{{ slidesSimon[slideIndexSimon].title }}</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <div class="next-previous-button">
+          <a class="prev" (click)="goToPreviousSlideSimon()"
+            ><img src="../../assets/icons/less.png" width="20px" alt="" /></a
+          ><span class="span-space">__</span>
+          <a class="next" (click)="goToNextSlideSimon()"
+            ><img src="../../assets/icons/more.png" width="20px" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <p>
+        Site internet d'un réalisateur en courts-métrages développé avec Angular
+        8 (Typescript, Html, Scss), Angular Material, Node JS.
+      </p>
+      <p>
+        <a href="https://www.simonvaissiere.com"
+          ><img src="../../assets/icons/more2.png" width="20px" alt=""
+        /></a>
+      </p>
+    </div>
+  </div>
+
+  <div class="ngoc-homepage">
+    <!-- BANANA DECISIONS -->
+    <div class="project-banana">
+      <h2>Application mobile "Banana Decisions" - Ionic 4 (Angular 8)</h2>
+
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div>
+          <img
+            (click)="goToBananaWebsite()"
+            class="img-slides"
+            src="../../assets/banana/{{ slidesBanana[slideIndexBanana].img }}"
+            style="width: 30%;"
+          />
+          <div class="text">{{ slidesBanana[slideIndexBanana].title }}</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <div class="next-previous-button">
+          <a class="prev" (click)="goToPreviousSlideBanana()"
+            ><img src="../../assets/icons/less.png" width="20px" alt="" /></a
+          ><span class="span-space">__</span>
+          <a class="next" (click)="goToNextSlideBanana()"
+            ><img src="../../assets/icons/more.png" width="20px" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <p>
+        Application mobile multiplateforme développé avec Ionic 4 (Angular 8).
+      </p>
+      <p>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.decisions.banana"
+          ><img src="../../assets/icons/more2.png" width="20px" alt=""
+        /></a>
+      </p>
+    </div>
+  </div>
+  <div class="ngoc-homepage">
+    <!-- DRAGON QUIZ -->
+    <div class="project-banana">
+      <h2>Application mobile "Dragon Quiz" - Ionic 5 (Angular 8)</h2>
+
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div>
+          <img
+            (click)="goToBananaWebsite()"
+            class="img-slides"
+            src="../../assets/dragon/{{ slidesDragon[slideIndexDragon].img }}"
+            style="width: 30%;"
+          />
+          <div class="text">{{ slidesDragon[slideIndexDragon].title }}</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <div class="next-previous-button">
+          <a class="prev" (click)="goToPreviousSlideDragon()"
+            ><img src="../../assets/icons/less.png" width="20px" alt="" /></a
+          ><span class="span-space">__</span>
+          <a class="next" (click)="goToNextSlideDragon()"
+            ><img src="../../assets/icons/more.png" width="20px" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <p>
+        Application mobile multiplateforme développé avec Ionic 5 (Angular 8).
+      </p>
+      <p>
+        <a href="https://play.google.com/store/apps/details?id=com.dragonquiz"
+          ><img src="../../assets/icons/more2.png" width="20px" alt=""
+        /></a>
+      </p>
+    </div>
+  </div>
+
+  <ngoc-qui-suis-je></ngoc-qui-suis-je>
+  <ngoc-competences></ngoc-competences>
+  <ngoc-download-cv></ngoc-download-cv>
+  <ngoc-footer></ngoc-footer>
+
+  <div id="back-menu">
+    <a href="#menu-general"><img src="../../assets/icons/up2.png" alt="" /></a>
+  </div>
+</section>

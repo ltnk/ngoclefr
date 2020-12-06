@@ -1,0 +1,33 @@
+.ngoc-competences {
+  margin: 50px auto;
+  width: 80%;
+  padding: 20px;
+  background-color: rgba($color: #ffffff, $alpha: 0.9);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  .competences {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 10px;
+
+    .competences-details {
+      text-align: left;
+    }
+    h3,
+    .sub-title {
+      text-align: center;
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        color: orange;
+      }
+    }
+    .img-parcours {
+      text-align: center;
+      img {
+        margin: 10px;
+        height: 40px;
+      }
+    }
+  }
+}

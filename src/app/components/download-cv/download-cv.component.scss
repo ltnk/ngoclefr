@@ -1,0 +1,24 @@
+.cv-download-component {
+  margin: 50px auto;
+  width: 80%;
+  padding: 20px;
+  background-color: rgba($color: #ffffff, $alpha: 0.9);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+
+  .cv-download {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 10px;
+    a {
+      text-decoration: none;
+      color: black;
+      img {
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+      }
+      img:not(.highlight-card):hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
+}

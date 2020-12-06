@@ -1,0 +1,164 @@
+.all-ngoc-homepage {
+  height: 100%;
+  height: -webkit-calc(100% - 70px);
+  height: -moz-calc(100% - 70px);
+  height: calc(100% - 70px);
+
+  .ngoc-homepage {
+    //height: 100%;
+    margin: 50px auto;
+    width: 80%;
+    padding: 20px;
+    background-color: rgba($color: #ffffff, $alpha: 0.9);
+    //background-color: white;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+
+    .ngoc-header {
+      text-align: center;
+      padding: 10px;
+
+      // font-family: "Amatic SC", cursive;
+      font-family: "Staatliches", cursive;
+
+      h1 {
+        font-size: 1.3em;
+      }
+      .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button {
+          background-color: transparent;
+          border: none;
+          margin: 0;
+          margin-right: 10px;
+          margin-left: 10px;
+          padding: 10px;
+
+          text-align: center;
+          font-family: "Varela Round", sans-serif;
+          transition: all 0.5s ease-in-out;
+          cursor: pointer;
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
+        button:not(.highlight-card):hover {
+          transform: translateY(-3px);
+        }
+      }
+    }
+
+    .project-simon {
+      //border: 3px solid rgb(229, 202, 194);
+      font-size: 0.9em;
+      text-align: center;
+      padding: 10px;
+      //background-color: rgba($color: #ffffff, $alpha: 0.9);
+      //box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+      .slideshow-container {
+        div {
+          width: 95%;
+          margin: 0 auto;
+          .img-slides {
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+          }
+          .img-slides:not(.highlight-card):hover {
+            transform: translateY(-5px);
+          }
+        }
+        .span-space {
+          color: transparent;
+        }
+        .next-previous-button {
+          margin: 10px auto;
+          a {
+            img {
+              transition: all 0.2s ease-in-out;
+              cursor: pointer;
+            }
+            img:not(.highlight-card):hover {
+              transform: translateY(-3px);
+            }
+          }
+        }
+      }
+      h2 {
+        font-size: 1em;
+      }
+    }
+  }
+  .project-banana {
+    //border: 3px solid rgb(229, 202, 194);
+    font-size: 0.9em;
+    text-align: center;
+    padding: 10px;
+    .slideshow-container {
+      div {
+        width: 95%;
+        margin: 0 auto;
+        .img-slides {
+          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+          margin-bottom: 20px;
+          transition: all 0.3s ease-in-out;
+          cursor: pointer;
+        }
+        .img-slides:not(.highlight-card):hover {
+          transform: translateY(-5px);
+        }
+      }
+      .span-space {
+        color: transparent;
+      }
+      .next-previous-button {
+        margin: 10px auto;
+        a {
+          img {
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+          }
+          img:not(.highlight-card):hover {
+            transform: translateY(-3px);
+          }
+        }
+      }
+    }
+    h2 {
+      font-size: 1em;
+    }
+  }
+}
+
+// appareil photo
+i {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Quand hover ils se surrélève joliment */
+i:not(.highlight-card):hover {
+  transform: translateY(-3px);
+}
+
+#back-menu {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  margin-top: -2.5em;
+  /* circle*/
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background-color: rgb(255, 196, 0);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  text-align: center;
+  a {
+    img {
+      width: 20px;
+    }
+  }
+}
